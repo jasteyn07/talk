@@ -21,7 +21,7 @@ const ICE_SERVERS = [
 
 const APP_URL = (() => {
 	const protocol = "http" + (location.hostname == "localhost" ? "" : "s") + "://";
-	return protocol + location.hostname + (location.hostname == "localhost" ? ":5692" : "");
+	return protocol + location.hostname + (location.hostname == "localhost" ? ":3000" : "");
 })();
 
 const ROOM_ID = (() => {
