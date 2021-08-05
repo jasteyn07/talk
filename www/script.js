@@ -1,9 +1,7 @@
 /* globals App, io, cabin*/
 const ICE_SERVERS = [
-	{ urls: "stun:stun.l.google.com:19302" },
-	{ urls: "stun3.l.google.com:19302" },
-	{ urls: "stun:numb.viagenie.ca:3478", username: "jan@goldkeytechnologies.com", credential: "SJP67sURDsnm!S9" },
-	{ urls: "turn:numb.viagenie.ca:3478", username: "jan@goldkeytechnologies.com", credential: "SJP67sURDsnm!S9" },
+	{ urls: "stun:numb.viagenie.ca", credential: "SJP67sURDsnm!S9", username: "jan@goldkeytechnologies.com" },
+	{ urls: "turn:numb.viagenie.ca", credential: "SJP67sURDsnm!S9", username: "jan@goldkeytechnologies.com" },
 ];
 
 const APP_URL = (() => {
