@@ -2,8 +2,8 @@
 const ICE_SERVERS = [
 	{ urls: "stun:stun.l.google.com:19302" },
 	{ urls: "stun3.l.google.com:19302" },
-	{ urls: "turn:numb.viagenie.ca", username: "jan@goldkeytechnologies.com", credential: "SJP67sURDsnm!S9" },
-	{ urls: "stun:numb.viagenie.ca", username: "jan@goldkeytechnologies.com", credential: "SJP67sURDsnm!S9" },
+	{ urls: "stun:numb.viagenie.ca:3478", username: "jan@goldkeytechnologies.com", credential: "SJP67sURDsnm!S9" },
+	{ urls: "turn:numb.viagenie.ca:3478", username: "jan@goldkeytechnologies.com", credential: "SJP67sURDsnm!S9" },
 ];
 
 const APP_URL = (() => {
