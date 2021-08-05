@@ -5,6 +5,7 @@ const ICE_SERVERS = [
 	{ urls: "stun:stun.sipnet.net:3478" },
 	{ urls: "stun:stun.ideasip.com:3478" },
 	{ urls: "stun:stun.iptel.org:3478" },
+	{ urls: "stun3.l.google.com:19302" },
 	{ urls: "turn:numb.viagenie.ca", username: "imvasanthv@gmail.com", credential: "d0ntuseme" },
 	{
 		urls: [
@@ -20,7 +21,7 @@ const ICE_SERVERS = [
 
 const APP_URL = (() => {
 	const protocol = "http" + (location.hostname == "localhost" ? "" : "s") + "://";
-	return protocol + location.hostname + (location.hostname == "localhost" ? ":3000" : "");
+	return protocol + location.hostname + (location.hostname == "localhost" ? ":5692" : "");
 })();
 
 const ROOM_ID = (() => {
