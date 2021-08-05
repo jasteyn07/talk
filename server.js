@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, "icons")));
 app.use(express.static(path.join(__dirname, "node_modules/vue/dist/")));
 
 // Get PORT from env variable else assign 3000 for development
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5692;
 server.listen(PORT, null, () => console.log("Listening on port " + PORT));
 
 app.get("/legal", (req, res) => res.sendFile(path.join(__dirname, "www/legal.html")));
