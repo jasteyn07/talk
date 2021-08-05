@@ -1,7 +1,14 @@
 /* globals App, io, cabin*/
 const ICE_SERVERS = [
 	{ urls: "stun:numb.viagenie.ca", credential: "SJP67sURDsnm!S9", username: "jan@goldkeytechnologies.com" },
-	{ urls: "turn:numb.viagenie.ca", credential: "SJP67sURDsnm!S9", username: "jan@goldkeytechnologies.com" },
+	{ 
+		urls: [
+			"turn:numb.viagenie.ca:3478?transport=udp", 
+			"turn:numb.viagenie.ca:3478?transport=tcp",
+		],
+		credential: "SJP67sURDsnm!S9", 
+		username: "jan@goldkeytechnologies.com",
+	},
 ];
 
 const APP_URL = (() => {
