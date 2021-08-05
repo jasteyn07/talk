@@ -38,11 +38,7 @@
 		<section id="videos"></section>
 		<main id="app" v-bind:style="'display:block'">
 			<div id="intro" v-if="showIntro && !showChat && !showSettings">
-				<p>
-					<strong>Welcome to Collabizus Talk</strong>.
-				</p>
-				<div class="label">Name 📛</div>
-				<input type="text" placeholder="Your name" v-model="name" v-on:keyup="nameToLocalStorage" />
+				
 			</div>
 
 			<div id="chatWrap" v-if="showChat">
