@@ -37,11 +37,11 @@ input {
 }
 .video.two {
 	width: 50vw;
-	height: 100vh;
+	height: 50vh;
 }
 .video.three {
 	width: 33.33vw;
-	height: 100vh;
+	height: 50vh;
 }
 .video.four {
 	width: 50vw;
@@ -293,11 +293,11 @@ input {
 		overflow: hidden;
 	}
 	.video.two {
-		width: 100vw;
+		width: 50vw;
 		height: 50vh;
 	}
 	.video.three {
-		width: 100vw;
+		width: 33.33vw;
 		height: 33.33vh;
 	}
 	.video.five,
